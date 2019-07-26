@@ -1,0 +1,85 @@
+.container {
+    width: 70%;
+    text-align: center;
+    margin-left:  300px;
+}
+
+.hero-image {
+    background-image: url("/w3images/photographer.jpg");
+    background-color: #cccccc;
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .hero-text a{
+      color: white;
+      text-decoration: none;
+  }
+
+  .hero-text a:hover {
+      text-decoration: underline;
+  }
+
+  .navbar {
+	width: 80%;
+	margin-left: 150px;
+    border-radius:10px;
+    position: absolute;
+    margin-top: 30px;
+ background: #7d7e7d; /* Old browsers */
+background: -moz-linear-gradient(top,  #7d7e7d 0%, #46ddc9 8%, #0e0e0e 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7d7e7d), color-stop(8%,#46ddc9), color-stop(100%,#0e0e0e)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #7d7e7d 0%,#46ddc9 8%,#0e0e0e 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #7d7e7d 0%,#46ddc9 8%,#0e0e0e 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #7d7e7d 0%,#46ddc9 8%,#0e0e0e 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #7d7e7d 0%,#46ddc9 8%,#0e0e0e 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */ 
+}
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  overflow: hidden;
+}
+.navbar li a {
+  float: left;
+  line-height: 50px;
+  padding: 0 20px;
+  text-decoration: none;
+  color: #ddd;
+}
+.navbar li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar .search-container {
+    float: right;
+  }
+  
+  .navbar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width: 130px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .fontAwesome {
+    font-family: 'Helvetica', FontAwesome, sans-serif;
+  }
