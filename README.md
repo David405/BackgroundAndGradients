@@ -6,6 +6,6 @@ This project was completed using HTML and CSS
 
 # Author
 
-David Asamonye
+[David Asamonye](https://github.com/David405/)
 
 # Live Preview
