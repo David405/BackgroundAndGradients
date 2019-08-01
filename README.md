@@ -4,7 +4,8 @@ This is the fourth project of the main HTML and CSS curriculum of Microverse
 
 This project was completed using HTML and CSS
 
-#Author
+# Author
+
 David Asamonye
 
-#Live Preview
+# Live Preview
