@@ -76,7 +76,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', end
     float: right;
   }
   
-  .navbar input[type=text] {
+  .navbar input {
     padding: 6px;
     margin-top: 8px;
     font-size: 10px;
