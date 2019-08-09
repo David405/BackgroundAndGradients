@@ -7,7 +7,7 @@ body {
 }
 
 .hero-image {
-    background-image: url("/images/your_verse_hero.jpg");
+    background-image: url("./images/your_verse_hero.jpg");
     background-color: #cccccc;
     height: 70vh;
     background-position: center;
